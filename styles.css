@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Barra de navegación */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 150px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.selected{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.subselected{
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+li{
+    margin-right: 20px;
+}
+
+.signOut{
+    padding: 6px 15px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Tarjeta de usuario */
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid grey;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.cardheader{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #17a2b8;
+    height: 75px;
+}
+
+.user{
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.cardinformation{
+    padding-left: 40px;
+    margin-top: 60px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-bottom: 15px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+.pin, .gear{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.edit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a{
+    color: #307ce4;
+}
+
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 0 400px;
+    gap: 50px;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.derecha{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 60px;
+}
+
+/* Header de todos los contenedores*/
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(35, 35, 35);
+    align-items: center;
+}
+
+h4{
+    color: white;
+    padding: 15px 30px;
+}
+
+.number{
+    background-color: white;
+    border-radius: 50%;
+    padding:2px 6px;
+    margin-left: 30px;
+}
+
+.contenidoRequests, .imagen_nombre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenidoRequests{
+    justify-content: space-between;
+}
+
+.connectionPic{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.requestIcon{
+    width: 50px;
+    height: auto;
+}
+
+/* View more */
+.viewMore{
+    border-top: 3px solid grey;
+    padding: 15px 30px;
+}
+
+.request, .connections, .educacion{
+    border: 3px solid grey;
+}
+
+.imagen_nombre{
+    margin: 15px 30px;
+}
+
+.iconos{
+    margin-right: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+/* Educacion */
+.educacionMain{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
